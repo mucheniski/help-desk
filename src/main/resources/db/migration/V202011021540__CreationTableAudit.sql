@@ -1,0 +1,7 @@
+CREATE TABLE audit (
+	posted_at TIMESTAMP NOT NULL,
+	last_updated_at TIMESTAMP NOT NULL
+)
+ENGINE=InnoDB
+DEFAULT CHARSET=utf8mb4
+COLLATE=utf8mb4_0900_ai_ci;
